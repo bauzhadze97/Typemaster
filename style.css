@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow';
+    font-weight: 500;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+main{
+    width: 100%;
+}
+main nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 24px 0 24.5px;
+}
+main nav button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #162542;
+    background: #E8EFF2;
+    border-radius: 8px;
+    padding: 11px 14.5px 11px 13.5px;
+    cursor: pointer;
+    border: none;
+}
+header {
+    margin: 64px 24px 0 24px;
+}
+header h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #162542;
+    padding: 0 0 32px 0;
+}
+header p{
+    color: #7B8BAD;
+    font-size: 16px;
+    padding: 0 0 32px 0;
+}
+header .buttonhero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .buttonhero button{
+    font-weight: 700;
+    font-size: 16px;
+    background: #F16718;
+    border-radius: 8px;
+    padding: 11px 14px 11px 14px;
+    border: none;
+    color: #FFFFFF;
+}
+header .buttonhero p{
+    color: #7B8BAD;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 3px 22px 0 0;
+}
+header .heroimage{
+    background-image: url(/assets/mobile/image-keyboard.jpg);
+    background-position: center;
+    height: 331px;
+    width: 372px;
+    margin:60px -45px 0 0;
+    background-color: #D8D8D8;
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    margin: 24px 0 0 0;
+}
+section .hero-section{
+    position: relative;
+    background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
+    background-position: left;
+    width: 129px;
+    height: 193px;
+    border-radius: 20px;
+    margin-left: -22px;
+}
+section .hero-section div{
+   position: absolute;
+   background-color: #F16718;
+   width: 100%;
+   height: 100%;
+   opacity: 0.75;
+   border-radius: 20px;
+}
+section .hero-section2{
+    background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
+    width: 220px;
+    height: 193px;
+    background-color: #D8D8D8;
+    border-radius: 20px;
+    margin: 0 24px 0 24px;
+}
+.herotext h2{
+    color: #162542;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 36px 24px 36px;
+}
+.herotext p{
+    color: #7B8BAD;
+    font-size: 16px;
+    text-align: center;
+}
+.herotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 24px 0 24px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    background: #F16718;
+    border-radius: 16px;
+}
+.container .card{
+    max-width: 327px;
+    margin: 111px 24px 64px 24px;
+}
+.container .card .icon img{
+    width: 25.14px;
+    height: 20.24px;
+}
+.container .card h1{
+    padding: 48px 0 24px 0;
+    color: #162542;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+.container .card p{
+    color: #7B8BAD;
+    font-size: 16px;
+    text-align: center;
+}
