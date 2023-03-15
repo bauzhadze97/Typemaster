@@ -33,23 +33,23 @@ main nav button{
 header {
     margin: 64px 24px 0 24px;
 }
-header h1{
+header div h1{
     font-size: 48px;
     font-weight: 900;
     color: #162542;
     padding: 0 0 32px 0;
 }
-header p{
+header div p{
     color: #7B8BAD;
     font-size: 16px;
     padding: 0 0 32px 0;
 }
-header .buttonhero{
+header div .buttonhero{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-header .buttonhero button{
+header div .buttonhero button{
     font-weight: 700;
     font-size: 16px;
     background: #F16718;
@@ -58,13 +58,13 @@ header .buttonhero button{
     border: none;
     color: #FFFFFF;
 }
-header .buttonhero p{
+header div .buttonhero p{
     color: #7B8BAD;
     font-weight: 700;
     font-size: 16px;
     padding: 3px 22px 0 0;
 }
-header .heroimage{
+header div .heroimage{
     background-image: url(/assets/mobile/image-keyboard.jpg);
     background-position: center;
     height: 331px;
@@ -171,3 +171,47 @@ footer span{
     font-weight: 700;
     margin-right: 5px;
 }
+@media screen and (min-width:768px){
+    header {
+        display: grid;
+        grid-template-columns: 339px 478px;
+        gap:69px;
+        width: 100%;
+    }
+    header div h1,p, header div .buttonhero{
+        align-items: start;
+        grid-column: 1/1;
+    }
+    header div .heroimage{
+        grid-column: 2/2;
+        width: 478px;
+        height: 425px;
+        margin: 0 -157px 0 0;
+    }
+    section .hero-section{
+        width: 214px;
+        height: 320px;
+        margin-left: 39px;
+    }
+    section .hero-section2{
+        width: 445px;
+        height: 320px;
+    }
+    .herotext{
+        flex-direction: row;
+        align-items: center;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 281px 281px;
+        gap: 69px;
+    }
+    .container .card{
+    max-width: 281px;
+    margin: 111px 24px 64px 39px;
+    }
+    .container .card .icon{
+        margin-left: 0;
+    }
+}
+
