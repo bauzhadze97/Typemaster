@@ -143,10 +143,6 @@ section .hero-section2{
     max-width: 327px;
     margin: 111px 24px 64px 24px;
 }
-.container .card .icon img{
-    width: 25.14px;
-    height: 20.24px;
-}
 .container .card h1{
     padding: 48px 0 24px 0;
     color: #162542;
@@ -212,6 +208,12 @@ footer span{
     }
     .container .card .icon{
         margin-left: 0;
+    }
+    .container .card h1{
+        text-align: left;
+    }
+    .container .card p{
+        text-align: left;
     }
 }
 
