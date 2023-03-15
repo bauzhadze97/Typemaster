@@ -137,6 +137,7 @@ section .hero-section2{
     height: 65px;
     background: #F16718;
     border-radius: 16px;
+    margin-left: 131px;
 }
 .container .card{
     max-width: 327px;
@@ -157,4 +158,16 @@ section .hero-section2{
     color: #7B8BAD;
     font-size: 16px;
     text-align: center;
+}
+footer {
+    margin: 34px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7B8BAD;
+    font-size: 16px;
+}
+footer span{
+    font-weight: 700;
+    margin-right: 5px;
 }
