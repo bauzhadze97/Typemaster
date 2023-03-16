@@ -265,7 +265,7 @@ section .herotextdesktop{
     }
     section .desktopleft{
         display: block;
-        background-image: url(/assets/shared/pattern-square.svg);
+        background-image: url(./assets/shared/pattern-square.svg);
         width: 255px;
         height: 240px;
         margin-left: -125px;
