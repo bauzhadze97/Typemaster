@@ -170,6 +170,9 @@ footer span{
 header .desktoppattern{
     display: none;
 }
+section .herotextdesktop{
+    display: none;
+}
 @media screen and (min-width:768px){
     main nav{
         padding: 23px 165px 0 165px;
@@ -247,12 +250,51 @@ header .desktoppattern{
         background-image: url(/assets/desktop/image-phone-and-keyboard.jpg);
         width: 255px;
         height: 480px;
-        margin-left: 37px;
+       
     }
     section .hero-section2{
         background-image: url(/assets/desktop/image-glass-and-keyboard.jpg);
         width: 445px;
         height: 480px;
+        background-position: left;
+    }
+    section {
+        display: grid;
+        grid-template-columns: 120px 255px 445px 300px;
+        gap: 30px;
+    }
+    section .desktopleft{
+        display: block;
+        background-image: url(/assets/shared/pattern-square.svg);
+        width: 255px;
+        height: 240px;
+        margin-left: -125px;
+        margin-top: 240px;
+    }
+    section .herotextdesktop {
+        display: block;
+        margin:0 0 0 95px;
+    }
+    section .herotextdesktop h2{
+        color: #162542;
+        font-size: 32px;
+        font-weight: 900;
+        text-align: left;
+        text-transform: uppercase;
+        padding: 112px 36px 24px 0;
+    }
+    section .herotextdesktop p{
+        color: #7B8BAD;
+        font-size: 16px;
+        text-align: left;
+    }
+    .herotext{
+        display: none;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 255px 255px 255px 255px;
+        gap: 30px;
     }
 }
 
