@@ -136,6 +136,7 @@ section .hero-section2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 111px 0 0 0;
 }
 .container .card .icon{
     display: flex;
@@ -149,7 +150,7 @@ section .hero-section2{
 }
 .container .card{
     max-width: 327px;
-    margin: 111px 24px 64px 24px;
+    margin: 0 24px 64px 24px;
 }
 .container .card h1{
     padding: 48px 0 24px 0;
@@ -221,11 +222,11 @@ section .herotextdesktop{
     .container{
         display: grid;
         grid-template-columns: 281px 281px;
-        gap: 69px;
+        gap: 30px;
     }
     .container .card{
     max-width: 281px;
-    margin: 111px 24px 64px 39px;
+    margin: 0 24px 72px 39px;
     }
     .container .card .icon{
         margin-left: 0;
