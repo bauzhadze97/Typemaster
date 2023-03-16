@@ -167,7 +167,13 @@ footer span{
     font-weight: 700;
     margin-right: 5px;
 }
+header .desktoppattern{
+    display: none;
+}
 @media screen and (min-width:768px){
+    main nav{
+        padding: 23px 165px 0 165px;
+    }
     header {
         display: grid;
         grid-template-columns: 339px 478px;
@@ -214,6 +220,28 @@ footer span{
     }
     .container .card p{
         text-align: left;
+    }
+}
+@media screen and (min-width:1440px) {
+    header {
+        grid-template-columns: 445px 540px 240px;
+        gap: 60px;
+        margin: 64px 24px 0 165px;
+    }
+    header div h1{
+        font-size: 56px;
+    }
+    header div .heroimage{
+        width: 540px;
+        height: 480px;
+        margin: 0 0 0 60px;
+    }
+    header .desktoppattern{
+        display: block;
+        background-image: url(/assets/shared/pattern-square.svg);
+        width: 255px;
+        height: 240px;
+        margin-left: 30px;
     }
 }
 
