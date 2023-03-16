@@ -182,9 +182,7 @@ section .herotextdesktop{
     display: none;
 }
 @media screen and (min-width:768px){
-    main nav{
-        padding: 23px 165px 0 165px;
-    }
+
     header {
         display: grid;
         grid-template-columns: 339px 478px;
@@ -234,6 +232,9 @@ section .herotextdesktop{
     }
 }
 @media screen and (min-width:1440px) {
+    main nav{
+        padding: 23px 165px 0 165px;
+    }
     header {
         grid-template-columns: 445px 540px 240px;
         gap: 60px;
