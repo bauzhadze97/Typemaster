@@ -194,17 +194,20 @@ section .herotextdesktop{
         grid-column: 1/1;
     }
     header div .heroimage{
+        background-image: url(./assets/tablet/image-keyboard.jpg);
         grid-column: 2/2;
         width: 478px;
         height: 425px;
         margin: 0 -157px 0 0;
     }
     section .hero-section{
+        background-image: url(./assets/tablet/image-phone-and-keyboard.jpg);
         width: 214px;
         height: 320px;
         margin-left: 39px;
     }
     section .hero-section2{
+        background-image: url(./assets/tablet/image-glass-and-keyboard.jpg);
         width: 445px;
         height: 320px;
     }
@@ -244,6 +247,7 @@ section .herotextdesktop{
         font-size: 56px;
     }
     header div .heroimage{
+        background-image: url(./assets/desktop/image-keyboard.jpg);
         width: 540px;
         height: 480px;
         margin: 0 0 0 60px;
