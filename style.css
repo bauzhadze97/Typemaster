@@ -243,5 +243,16 @@ header .desktoppattern{
         height: 240px;
         margin-left: 30px;
     }
+    section .hero-section{
+        background-image: url(/assets/desktop/image-phone-and-keyboard.jpg);
+        width: 255px;
+        height: 480px;
+        margin-left: 37px;
+    }
+    section .hero-section2{
+        background-image: url(/assets/desktop/image-glass-and-keyboard.jpg);
+        width: 445px;
+        height: 480px;
+    }
 }
 
